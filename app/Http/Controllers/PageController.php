@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+    // Home page returns the home view - blade.php
     public function home()
     {
         // note you refer to the view without the .blade.php
